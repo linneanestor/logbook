@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>My favourite tags</h1>
+<br>
+<button style="button">Button</button>
+<button style="button">
+    I mean, who doesn't like buttons?
+</button>
+<br>
+<br>
+<dialog open>
+    Dialog: Not really sure what to use this for yet, 
+    but it'll come to in time
+</dialog>
+<br><br>
+<br><br>
+<picture>
+<p><i>And now... The picture tag! So cool! ...I think.</i></p>
+    <source media="(min-width:1000px)" 
+            srcset="../images/kodapa.jpg">
+    <source media="(min-width:10px)" 
+            srcset="images/kodapa.jpg">
+    <img src="assignment 1/images/Linnéa Skriva 3.jpg" alt="the picture tag" style="width:auto;">
+</picture>
+<br>
+<br>
+<li>List item tag 1</li>
+<li>List item tag 2</li>
+<li>List item tag 3</li>
+<br>
+<br>
+<ruby>What is the ruby tag? Well, let's find out! Oh, nothing happened... I'll find out later on!</ruby>
+<br>
+<br>
+<small>
+I am very small text, since I am the small-tag! Can you see me?
+</small>
+<br>
+<br>
+<details>
+    <p>I am a paragraph inside a details tag</p>
+    <!--Why can't you see me?-->
+    <summary>
+        (and I am a summary tag inside the detail element)
+    </summary>
+</details>
+<address>
+    So this is the address-tag, 
+    not really sure what to do with this either but hey let's try it out</address>
+<br>
+<blockquote>
+    "So this is blockquote"
+</blockquote>
+<label for="tags">
+    <b>What's your favourite tag?</b>
+<br>
+    <mark>
+    (By the way, I am using the mark-tag! How cool is that?!)
+    </mark> 
+    <br> <br>
+    <i>Choose from the list!</i>
+</label>
+<select name="tags" id="tags">
+  <option value="button">button</option>
+  <option value="dialog">dialog</option>
+  <option value="picture">picture</option>
+  <option value="select">list item</option>
+  <option value="select">select</option>
+</select>
+<br><br>
+<button style="button" id="button" onclick="myFunction()">
+    When you've chosen your favourite tag
+     for the day, click me! I am a button!
+</button>
+<script>
+    function myFunction() {
+      document.getElementById("button").innerHTML = "YAY! YOU CLICKED ME!";
+    }
+</script>
+<br><br>
+<br>
+</body>
+</html>
